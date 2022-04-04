@@ -160,3 +160,5 @@ class TestWeCom:
         for cookie in cookies:
             self.driver.add_cookie(cookie)
         self.driver.get("https://work.weixin.qq.com/wework_admin/frame#index")
+    def login(self):
+        print('login')
